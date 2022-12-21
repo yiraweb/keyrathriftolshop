@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {font-family: Arial, Helvetica, sans-serif;
+		background-color: #FFE4E1;
+	}
+	* {box-sizing: border-box;
+	}
+	.container {
+		width: 70%;
+		margin: auto;
+		padding: 80px;
+		background-color: #FAF0E6;
+	}
+	input[type=text], input[type=password] {
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #FFFAF0;
+	}input[type=text]:focus, input[type=password]:focus {
+		background-color: #F5F5F5;
+		outline: none;}
+
+	hr{
+		border: 1px solid #FFFFFF;
+		margin-bottom: 25px;
+	}
+	.loginbtn{
+		background-color: #F08080;
+		color: white;
+		padding: 16px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		opacity: 0.9;
+	}
+	.loginbtn:hover{
+		opacity: 1;
+	}
+	a{
+		color: #0000CD;
+	}
+	.Termsprivacy{
+		background-color: #f1f1f1;
+		text-align: center;
+		font-size: 10px;
+	}
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+	<div class="container">
+		<h1>WELCOME to Keyra Thrift Olshop</h1>
+		<hr>
+		<label for="username"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="username" required>
+		<label for="email"><b>Email</b></label>
+		<input type="text" placeholder="Enter Email" name="email" required>
+		<label for="psw"><b>Password</b></label>
+		<input type="Password" placeholder="Enter Password" name="psw" required>
+		<hr>
+		<p>Don't have an account? <a href="Registerolshop.html">Register</a>.</p>
+		<button type="submit" class="loginbtn"><a href="Websiteolshop.html" style="color: inherit;text-decoration: 0;">LOGIN</a></button>
+	</div>
+	<div class="container Termsprivacy">
+		<p><a href="#">Terms & Privacy</a></p>
+		<p>Copyright &copy; 2022 - Keyra Thrift Olshop. All Right Reserved.</p>
+		</div>
+	</footer>
+	</div>
+</form>
+</body>
+</html>
